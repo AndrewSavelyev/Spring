@@ -14,7 +14,7 @@ pipeline {
         stage("Clone code from GitHub") {
             steps {
                 script {
-                    git branch: 'main', credentialsId: 'githubwithpassword', url: 'https://github.com/AndrewSavelyev/Spring';
+                    git branch: 'docker', credentialsId: 'jenkins-user-github', url: 'https://github.com/AndrewSavelyev/Spring';
                 }
             }
         }
