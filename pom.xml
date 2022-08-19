@@ -37,5 +37,15 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+  <repository>
+     <id>MAVEN</id>
+     <name>maven-snapshots</name>
+     <snapshots>
+                <enabled>true</enabled>
+     </snapshots>
+     <url>http://localhost:8082/repository/maven-snapshots/</url>
+  </repository>
+</repositories>
 
 </project>
