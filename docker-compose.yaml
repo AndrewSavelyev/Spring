@@ -24,7 +24,7 @@ services:
         networks: 
             - jenkins-nexus 
         volumes:
-            - nexus_data:/sonatype-work
+            - nexus_data:/nexus_data
 volumes:
     jenkins_home: 
     nexus_data:
